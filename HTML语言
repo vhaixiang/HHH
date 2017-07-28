@@ -1,0 +1,91 @@
+# 颜色 #
+<font color="#0000cc">**注意：** </font>
+2319dc
+0000cc
+3300ff
+
+# 转义字符 #
+左尖括号： &lt;
+
+右尖括号： &gt;
+
+空格：&nbsp;
+
+# 锚点 #
+[1](#1)  
+<span id="1"></span>
+
+# 字体大小 #
+<div style="font-size:40px"><strong>标题</strong></div>
+
+# 表格列宽 #
+<style>
+table th:nth-of-type(1) {
+width: 350px;	
+}
+table th:nth-of-type(2) {
+width: 500px;	
+}
+</style>
+#  表格第一列宽度调整：
+<style>
+table th:first-of-type {
+    width: 150px;
+}
+</style>
+
+# 表格 #
+<table>
+    <tr>
+        <td>列一</td> 
+        <td>列一</td> 
+   </tr>
+    <tr>
+        <td colspan="2">合并行</td>    
+    </tr>
+    <tr>
+        <td colspan="2">合并行</td>    
+    </tr>
+</table>
+
+-----
+
+<table>
+    <tr>
+        <td>列一</td> 
+        <td>列二</td> 
+   </tr>
+    <tr>
+        <td rowspan="2">合并列</td>    
+        <td >行二列二</td>  
+    </tr>
+    <tr>
+        <td >行三列二</td>  
+    </tr>
+</table>
+
+
+-----
+
+<table>
+    <tr>
+        <td>列一</td> 
+        <td>列二</td> 
+   </tr>
+   <tr>
+        <td colspan="2">合并行</td>    
+   </tr>
+   <tr>
+        <td>列一</td> 
+        <td>列二</td> 
+   </tr>
+    <tr>
+        <td rowspan="2">合并列</td>    
+        <td >行二列二</td>  
+    </tr>
+    <tr>
+        <td >行三列二</td>  
+    </tr>
+</table>
+
+-----
